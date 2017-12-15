@@ -38,9 +38,9 @@ function createArticle(article){
 return `
  <div class="article">
     <a href = "${article.URL}"></a>
-        <h3>${article.title}</h3>
+        <h2>${article.title}</h2>
         <img src = "${article.urlToImage}">
-        <p>${article.description}</p>
+        <h4>${article.description}</h4>
     </a>
   </div>
 `;
